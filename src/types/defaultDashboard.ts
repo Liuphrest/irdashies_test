@@ -49,8 +49,8 @@ export const defaultDashboard: {
         background: {
           opacity: 80,
         },
-        foreground: { 
-          opacity: 70, 
+        foreground: {
+          opacity: 70,
         },
         countryFlags: {
           enabled: true,
@@ -354,6 +354,10 @@ export const defaultDashboard: {
       config: {
         showRpmText: false,
         rpmOrientation: 'horizontal',
+        showOilTemp: true,
+        showWaterTemp: true,
+        oilTempPosition: 'top',
+        waterTempPosition: 'top',
         shiftPointSettings: {
           enabled: false,
           indicatorType: 'glow',
@@ -386,8 +390,8 @@ export const defaultDashboard: {
         background: {
           opacity: 80,
         },
-        foreground: { 
-          opacity: 70, 
+        foreground: {
+          opacity: 70,
         },
         position: {
           enabled: true,
